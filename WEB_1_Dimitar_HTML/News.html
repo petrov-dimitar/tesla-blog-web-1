@@ -1,0 +1,214 @@
+<!doctype html>
+
+<html>
+
+<head>
+<title>
+Tesla News
+</title>
+<link rel = "stylesheet" type = "text/css" href = "Css/News.css">
+</head>
+
+<body>
+<nav id = "navbar">
+<div class = "subbar" >
+	<img class= "logo" src = "Images/TeslaLogo2.jpg"
+		alt= "TeslaBlog.com" 
+		title = "TeslaBlog.com">
+	<ul>
+		<li> <span id= "blog">Blog.com</span> </li>
+		<li><a href="index.html">Home</a> </li>
+		<li><a href="News.html">News</a></li>
+		<li><a href="Models.html">Models</a></li>
+		<li><a href="Contact.html">Contact Us</a></li>
+		<li><a href="Sign_Up.html">Sign Up</a></li>
+		<li><a href="Sign_In.html">Sign In</a></li>
+	</ul>
+	</div>
+</nav>
+
+<div class= "Wholeblock">
+
+<div class = "firstblock">
+
+<div class = "mySlides">
+	<a href="ArticleTeslaRoadsterTheConcept.html"><img src="Images/TeslaRoadster.jpg" width = 1100 height=550></a>
+	<h3> <a href="ArticleTeslaRoadsterTheConcept.html">Tesla Roadster: The Concept </a></h3>
+</div>
+	
+<div class = "mySlides">
+<a href="ArticleSupercharging.html"><img  src="Images/TeslaCharger.jpg" width = 1100 height=550></a>
+<h3> <a href="ArticleSupercharging.html"> Tesla cars now recharges for seconds </a></h3>
+</div>
+
+<div class = "mySlides">
+<a href="ArticleModel3.html"><img src="Images/model3.jpg" width = 1100 height=550></a>
+<h3> <a href="ArticleModel3.html"> Model 3 is now on the market </a></h3>
+</div>
+
+<div class = "mySlides">
+<a href="ArticleCaroftheYear.html"><img  src="Images/ModelSphoto3.jpg" width = 1100 height=550></a>
+<!--<div class = "Dot"><a >O</a></div> -->
+<h3> <a href="ArticleCaroftheYear.html">Model S:Car of the Year 2014 </a></h3>
+</div>
+
+</div>
+
+<button class="btnleft" onclick="plusDivs(-1)">&#10094;</button>
+<button class="btnright" onclick="plusDivs(+1)">&#10095;</button>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+</script>
+
+<div class="grid22">
+	<div class ="article">
+	
+	<h2 class = "heading2"> <a href="ArticleTeslaRoadsterTheConcept.html"> Tesla Roadster: The Concept </a></h2>
+	<p class = "paragraph"><a href="ArticleTeslaRoadsterTheConcept.html">After the Tesla CEO spent half an hour onstage
+		extolling the virtues of his new electric 
+		18-wheeler, he stepped away and the lights 
+		went out. Beastie Boys’ “Sabotage” came on 
+		the loudspeakers, and then the new Roadster 
+		rolled out of the very Semi he had just 
+		introduced, ripping around the massive lot 
+		where the trucks had been just a moment earlier...
+		</a>
+		</p>
+		<h1 class="imgtitle"> <a href="ArticleTeslaRoadsterTheConcept.html"> Tesla Roadster: The Concept </a></h1>
+		<a href="ArticleTeslaRoadsterTheConcept.html"><img src = "Images/TeslaRoadster.jpg"
+			alt= "TeslaBlog.com" 
+			title = "TeslaBlog.com"
+			width = "469"
+		height = "300"/></a>
+		
+	</div>
+
+
+	<div class ="article">
+	<h2 class = "heading2"> <a href="ArticleModelS.html">Model S : The Safest Car </a></h2>
+	<p class = "paragraph"> <a href="ArticleModelS.html">Model S : The Safest CarModel S achieved the highest safety
+	rating of any car ever tested and set a record for the lowest probability of occupant
+	injury—from front, side, rear and rollover accidents...
+	</a>
+		</p>
+		<h1 class="imgtitle"><a href="ArticleModelS.html"> Model S : The Safest Car</a></h1>
+		
+		<a href="ArticleModelS.html">
+		<img src = "Images/Teslanews5.jpg"
+			alt= "TeslaBlog.com" 
+			title = "TeslaBlog.com"
+			width = "469"
+			height = "300"/>
+		<a>
+
+	</div>
+
+	<div class = "article">
+	<h2 class = "heading2"><a href="ArticleInSpace.html">First car in space - ever</a></h2>
+	<p class = "paragraph"> <a href="ArticleInSpace.html">There was no shortage of media from Elon Musk’s SpaceX
+	Falcon Heavy rocket launch this week. A computer-rendered animation prepared us all
+	for the spectacle, set to David Bowie’s “Life on Mars” as a kind of galactic music
+	video. Everything was live-streamed as it happened...
+	</a>
+		</p>
+		<h1 class="imgtitle"> <a href="ArticleInSpace.html">Tesla Roadster in Space<a></h1>
+		<a href="ArticleInSpace.html"><img src = "Images/TeslaRoadsterInSpace.jpg"
+			alt= "TeslaBlog.com" 
+			title = "TeslaBlog.com"
+			width = "469"
+			height = "300"/> 
+			</a>
+	</div>
+	
+	<div class ="article">
+	<h2 class = "heading2"><a href="ArticleTeslaTruck.html">Tesla truck: 500 miles range</a></h2>
+	<p class = "paragraph"> <a href="ArticleTeslaTruck.html">Tesla caused quite a stir with its all-electric semi
+	truck when it unveiled the vehicle in November. Boasting 0 to 60 mph in a
+	zippy five seconds (sans trailer) and a range of 500 miles, as well as 
+	autonomou s driving features and a design unlike any truck that’s gone before,
+	Tesla CEO Elon Musk hopes the Tesla Semi will one day transform the long-haul
+	trucking industry...
+	</a>
+		</p>
+		<h1 class="imgtitle"> <a href="ArticleTeslaTruck.html">Tesla Truck will amaze you</a> </h1>
+		<a href="ArticleTeslaTruck.html"><img src = "Images/TeslaTruck.jpg"
+			alt= "TeslaBlog.com" 
+			title = "TeslaBlog.com"
+			width = "469"
+			height = "300"/>
+		</a>
+
+
+	</div>
+
+	<div class = "article">
+	<h2 class = "heading2"> <a href="ArticleCaroftheYear.html">ModelS: Car of the year </a></h2>
+	<p class = "paragraph"> <a href="ArticleCaroftheYear.html">Model S was named Motor Trend’s 2013 Car of the Year,
+	one of the automotive industry’s most coveted awards. To take top honors,
+	Model S garnered a unanimous vote from the panel of Motor Trend judges and 
+	guest judges, considered among the savviest and toughest critics in the
+	industry...
+	</a>
+		</p>
+		<h1 class="imgtitle"> <a href="ArticleCaroftheYear.html">Model S: Car of the year </a></h1>
+		<a href="ArticleCaroftheYear.html"><img src = "Images/Car.jpg"
+			alt= "TeslaBlog.com" 
+			title = "TeslaBlog.com"
+			width = "469"
+			height = "300"/></a>
+	</div>
+
+	<div class= "article">
+	<h2 class = "heading2"><a href="ArticleModel3.html">Model 3 ready to take over</a></h2>
+	<p class = "paragraph"><a href="ArticleModel3.html">
+	The Tesla Model 3 is a love letter to
+	the road! Tesla's Model 3 provides thrilling performance in a
+	comfortable, beautifully minimalist package ...
+	</a>
+		</p>
+		<h1 class="imgtitle"> <a href="ArticleModel3.html">Model 3 is here </h1>
+		<a href="ArticleModel3.html"><img src = "Images/Tesla3.jpg"
+		width = "469"
+		height = "300"/></a>
+	</div>
+</div>
+
+
+</div>
+
+
+
+<footer>
+
+	<div class= "socialmedia">
+		<div class = "fa fa-facebook"></div>
+		<div class = "fa fa-twitter"></div>
+		<div class = "fa fa-google-plus"></div>
+		<div class = "fa fa-linkedin"></div>
+	</div>
+	<div class = "bottomtext" >
+	<p> TeslaBlog.com ©    Copyright 2018. All rights reserved. </p>
+	</div>
+</footer>
+</div>
+
+</body>
+
+</html>

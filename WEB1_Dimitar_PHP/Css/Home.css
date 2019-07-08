@@ -1,0 +1,255 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "Navbar.css";
+.register {
+	background-color: Black;
+	color: #fff;
+	font-weight: normal;
+	font-size: 50px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	margin:0px;
+	padding-left: 85px;
+		
+}
+
+
+
+img.mySlides{
+	width: inherit;
+	height:600px;
+}
+
+
+
+.wholeblock a{
+	Color: White;
+	text-decoration: none;
+}
+
+.wholeblock a:hover{
+	color: Red;
+}
+
+.article:hover {
+  -webkit-transform: scale(1.12,1.12);
+  z-index:2;
+  
+ 
+  
+}
+
+
+h2{
+	background-color: Black;
+	color: #fff;
+	padding-left: 5px;
+	font-size: 30px;
+	padding-bottom: 0px;
+}
+
+
+body{
+	width: auto;
+	margin: 0px auto;
+}
+
+.wholeblock{
+	width: 1500px;
+	margin: 0px auto;
+}
+
+.padding {
+	padding-right:70px;
+}
+
+
+.firstPicture{
+	position: relative;
+	top:20px;
+}
+
+.firstblock{
+	width: 1100px;
+	margin: auto;
+	
+}
+
+.firstblock img {
+	position: relative;
+	
+}
+
+.firstblock h1{
+	font-size:55px;
+	font-weight:bold;
+	background-color: Black;
+	color: #fff;
+	position: relative;
+	text-align: center;
+	bottom:60px;
+	padding:10px;
+}
+
+.teslaRoadsterConceptarticle h1{
+ font-weight: normal;
+ font-size: 42px;
+ margin-left: 200px;
+ margin-right: 776px;
+ position: absolute;
+ top: 800px;
+}
+
+.grid22 {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+  bottom:40px;
+}
+ 
+.article {
+	display: inline-block;
+	position: Relative;
+}
+
+.imgtitle {
+	width:538px;
+	background-color: Black;
+	color: #fff;
+	margin: 0;
+	padding: 5px;
+	position: absolute;
+	bottom: 3px;
+	text-align:center;
+}
+
+.teslaRoadsterConceptarticle img{
+	position: relative;
+	left:200px;
+	bottom: 104px;
+	z-index: -1;
+}
+
+.teslaTruckArticle h1{
+	font-weight: normal;
+	font-size: 42px;
+	margin-left: 200px;
+	margin-right: 776px;
+	padding:0px;
+	padding-right: 10px;
+	padding-left: 25px;
+	position: relative;
+	left: 557px;
+	bottom: 152px;
+}
+
+.teslaTruckArticle img{
+	position: relative;
+	left: 757px;
+	bottom: 456px;
+	z-index: -1;
+}
+
+.teslaRoadsterInSpace img{
+	position: relative;
+	left: 200px;
+	bottom: 490px;
+	z-index: -1;
+}
+
+
+.teslaRoadsterInSpace h1{
+	font-weight: normal;
+	font-size: 42px;
+	margin-left: 200px;
+	margin-right: 776px;
+	padding:0px;
+	padding-right: 10px;
+	padding-left: 25px;
+	position: relative;
+	bottom: 170px;
+}
+
+.carOfTheYear h1{
+	font-weight: normal;
+	font-size: 42px;
+	margin-left: 200px;
+	margin-right: 776px;
+	padding:0px;
+	padding-right: 10px;
+	padding-left: 25px; 
+	position: relative;
+	left:557px;
+	bottom: 522px;
+}
+
+.carOfTheYear img{
+	position: relative;
+	left: 757px;
+	bottom: 842px;
+	z-index: -1;
+}
+
+.socialmedia {
+	width:1100px;
+	margin:auto;
+	position:relative;
+	top:20px;
+	text-align:center;
+}
+
+.socialmedia > div{
+	margin: 3px;
+	margin-bottom: 10px;
+	width:50px;
+	height:50px;
+	background:#eee;
+	text-align:center;
+	line-height:50px;
+	border-radius:50%;
+	color:#fff;
+	transition:all 300ms ease-in-out;
+}
+div.fa-facebook{
+	background:#5252b8;
+	
+}
+div.fa-twitter{
+	background:#00acee;;
+}
+div.fa-google-plus{
+	background:tomato;
+}
+
+div.fa-linkedin{
+	background:#55acee;
+}
+
+div.fa-facebook:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid #5252b8;
+	
+}
+div.fa-twitter:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid #5252b8;
+	
+}
+div.fa-google-plus:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid tomato;
+}
+
+div.fa-linkedin:hover{
+	color:#5252b8;
+	background:#fff;
+	border:1px solid #5252b8;
+	
+}
+.bottomtext{
+	width: 1100px;
+	margin:auto;
+	text-align:center;
+}

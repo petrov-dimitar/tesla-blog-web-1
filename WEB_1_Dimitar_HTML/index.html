@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html>
+<head>
+<title>TeslaBlog</title>
+<link rel = "stylesheet" type = "text/css" href = "Css/Home.css">
+</head>
+
+<body>
+
+<nav id = "navbar">
+<div class = "subbar" >
+	<img class= "logo" src = "Images/TeslaLogo2.jpg"
+		alt= "TeslaBlog.com" 
+		title = "TeslaBlog.com">
+	<ul>
+		<li> <span id= "blog">Blog.com</span> </li>
+		<li><a href="index.html">Home</a> </li>
+		<li><a href="News.html">News</a></li>
+		<li><a href="Models.html">Models</a></li>
+		<li><a href="Contact.html">Contact Us</a></li>
+		<li><a href="Sign_Up.html">Sign Up</a></li>
+		<li><a href="Sign_In.html">Sign In</a></li>
+	</ul>
+	</div>
+</nav>
+
+
+
+<div class = "wholeblock">
+	<div class= "firstblock">
+		
+	<img class="mySlides" src="Images/TeslaCover.jpg">
+<img class="mySlides" src="Images/ModelSphoto4.jpg">
+<img class="mySlides" src="Images/ModelX.jpg">
+<img class="mySlides" src="Images/TeslaModelSblack.jpg">
+
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2500); // Change image every 2 seconds
+}
+</script>
+
+	<h1> <a href="Sign_Up.html">TeslaBlog.com: Register now and win prizes!</a></h1>
+</div>
+
+
+<div class="grid22">
+	<div class ="article">
+		
+		<h1 class="imgtitle"><a href="ArticleTeslaRoadsterTheConcept.html">Tesla Roadster: The Concept</a></h1>
+		<a href="ArticleTeslaRoadsterTheConcept.html">
+		<img src = "Images/TeslaRoadster.jpg"
+			alt= "Tesla Roadster: The Concept" 
+			title = "TeslaBlog.com"
+			width = "548"
+		height = "300"/>
+		</a>
+	</div>
+
+
+	<div class ="article">
+		<h1 class="imgtitle"> <a href="ArticleTeslaTruck.html">Tesla Truck will amaze you</a></h1>
+		
+		<a href="ArticleTeslaTruck.html">
+		<img src = "Images/TeslaTruck.jpg"
+			alt= "Tesla Truck will amaze you" 
+			title = "TeslaBlog.com"
+			width = "548"
+			height = "300"/>
+		</a>
+
+
+	</div>
+
+	<div class = "article">
+		<h1 class="imgtitle"> <a href="ArticleInSpace.html">Tesla Roadster in space</a></h1>
+		
+		<a href="ArticleInSpace.html">
+		<img src = "Images/TeslaRoadsterInSpace.jpg"
+			alt= "Tesla Roadster in space" 
+			title = "TeslaBlog.com"
+			width = "548"
+			height = "300"/>
+		</a>
+	</div>
+
+	<div class= "article">
+		<h1 class="imgtitle"> <a href="ArticleCaroftheYear.html">Model S: car of the year 2014</a> </h1>
+		
+		<a href="ArticleCaroftheYear.html">
+		<img src = "Images/Car.jpg"
+		width = "548"
+		height = "300"/>
+		</a>
+	</div>
+</div>
+
+
+
+
+<footer>
+
+	<div class= "socialmedia">
+		<div class = "fa fa-facebook"></div>
+		<div class = "fa fa-twitter"></div>
+		<div class = "fa fa-google-plus"></div>
+		<div class = "fa fa-linkedin"></div>
+	</div>
+	<div class = "bottomtext" >
+	<p> TeslaBlog.com ©    Copyright 2018. All rights reserved. </p>
+	</div>
+</footer>
+</div>
+</body>
+</html>
