@@ -14,5 +14,6 @@ The final product was a fully functional Blog/News website about "Tesla" electri
 
 ##Recommendation for use
 As I have made it so that some of the pages need registration, you can use the following credentials to experience the full website functionality without wasting time for registration:
+
 - Username: admin
 - Password: admin
